@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">EnigmaApp</string>
+
+    <string name="teszt">Teszt</string>
+    <string name="kep">Kép</string>
+    <string name="jatek">Játék</string>
+
+
+    <string name="enigma">ENIGMA</string>
+
+    <string name="kozepiskola">Középiskola</string>
+    <string name="oktato_anyag">Oktatóanyag</string>
+    <string name="oktatoanyag">Oktató</string>
+    <string name="altalanos">Általános Iskola</string>
+    <string name="elso_osztaly">1. Osztály</string>
+    <string name="masodik_osztaly">2. Osztály</string>
+    <string name="harmadik_osztaly">3. Osztály</string>
+    <string name="negyedik_osztaly">4. Osztály</string>
+    <string name="otodik_osztaly">5. Osztály</string>
+    <string name="hatodik_osztaly">6. Osztály</string>
+    <string name="hetedik_osztaly">7. Osztály</string>
+    <string name="nyolcadik_osztaly">8. Osztály</string>
+    <string name="kozep">Középiskola</string>
+
+    <string name="kozep_iskola_masodik">10. Osztály</string>
+    <string name="kozep_iskola_elso">9. Osztály</string>
+    <string name="kozep_iskola_harmadik">11. Osztály</string>
+    <string name="kozep_iskola_negyedik">12. Osztály</string>
+    <string name="kisokos">Kisokos</string>
+    <string name="tesztek">TESZTEK</string>
+    <string name="altalanos_tesztek">Tesztek</string>
+    <string name="pontszam">Pontszám</string>
+    <string name="kerdes_1">Mennyi 2 négyzete?</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="kilepes">Kilépés</string>
+    <string name="szunet" />
+
+</resources>
+

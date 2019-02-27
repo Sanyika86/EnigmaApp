@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lakat.enigmaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Oktatoanyag" />
+        <activity android:name=".Tesztek" />
+        <activity android:name=".Altalanos" />
+        <activity android:name=".Kozep" />
+        <activity android:name=".Altalanos_elso_osztaly" />
+        <activity android:name=".Altalanos_tesztek" />
+        <activity android:name=".Alt_teszt_elso_osztaly" />
+        <activity android:name=".Kozep_tesztek" />
+        <activity android:name=".Altalanos_masodik_osztaly" />
+        <activity android:name=".Altalanos_harmadik_osztaly" />
+        <activity android:name=".Altalanos_negyedik_osztaly" />
+        <activity android:name=".Altalanos_otodik_osztaly"></activity>
+    </application>
+
+</manifest>
