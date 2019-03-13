@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Altalanos_nyolcadik_osztaly"></activity>
+        <activity android:name=".Altalanos_hetedik_osztaly" />
+        <activity android:name=".Altalanos_hatodik_osztaly" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +32,30 @@
         <activity android:name=".Altalanos_masodik_osztaly" />
         <activity android:name=".Altalanos_harmadik_osztaly" />
         <activity android:name=".Altalanos_negyedik_osztaly" />
-        <activity android:name=".Altalanos_otodik_osztaly"></activity>
+        <activity android:name=".Altalanos_otodik_osztaly" />
+        <activity android:name=".Kisokos" />
+        <activity android:name=".Jatek" />
+        <activity android:name=".Kisokos_szamelmelet" />
+        <activity android:name=".Kisokos_binominalis" />
+        <activity android:name=".Kisokos_kombinatorika" />
+        <activity android:name=".Kisokos_halmazok" />
+        <activity android:name=".Kisokos_logika" />
+        <activity android:name=".Kisokos_grafok" />
+        <activity android:name=".Kisokos_polinomok" />
+        <activity android:name=".Kisokos_sorozatok" />
+        <activity android:name=".Kisokos_logaritmus" />
+        <activity android:name=".Kisokos_hatvanyozas" />
+        <activity android:name=".Kisokos_gyokvonas" />
+        <activity android:name=".Kisokos_komplexszamok" />
+        <activity android:name=".Kisokos_kamatszamitas" />
+        <activity android:name=".Kisokos_trigonometria" />
+        <activity android:name=".Kisokos_sikidomok" />
+        <activity android:name=".Kisokos_testek" />
+        <activity android:name=".Kisokos_nevezetesfv" />
+        <activity android:name=".Kisokos_derivalas" />
+        <activity android:name=".Kisokos_integralas" />
+        <activity android:name=".Kisokos_valseg" />
+        <activity android:name=".Kisokos_harmadik" />
     </application>
 
 </manifest>

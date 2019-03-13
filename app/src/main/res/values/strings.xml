@@ -30,12 +30,48 @@
     <string name="tesztek">TESZTEK</string>
     <string name="altalanos_tesztek">Tesztek</string>
     <string name="pontszam">Pontszám</string>
-    <string name="kerdes_1">Mennyi 2 négyzete?</string>
-    <string name="_2">2</string>
-    <string name="_4">4</string>
-    <string name="_6">6</string>
+
+
     <string name="kilepes">Kilépés</string>
     <string name="szunet" />
+    <string name="kisokoska">Kisokos</string>
+    <string name="nulla">0</string>
+    <string name="kerdes" />
+    <string name="choise1" />
+    <string name="choise2" />
+    <string name="choice1" />
+    <string name="choice2" />
+    <string name="choice3" />
+    <string name="nullaval" />
+    <string name="keplet_tar">Matematikai Képlettár</string>
+    <string name="szamhalmazok">Számhalmazok</string>
+    <string name="szamelmelet">Számelmélet</string>
+    <string name="binominalis">Binominális tétel</string>
+    <string name="kombinatorika">Kombinatorika</string>
+    <string name="halmazok">Halmazok</string>
+    <string name="logika">Logika</string>
+    <string name="grafok">Gráfok</string>
+    <string name="polinomok">Polinomok</string>
+    <string name="sorozatok">Sorozatok</string>
+
+    <string name="logaritmus">Logaritmus</string>
+    <string name="hatvanyozas">Hatványozás</string>
+
+    <string name="egyenletek">Egyenletek</string>
+
+    <string name="keplettar2">Matematikai Képlettár</string>
+    <string name="gyokvonas">Gyökvonás</string>
+    <string name="komplex">Komplex számok</string>
+    <string name="trigonometria">Trigonometria</string>
+    <string name="sikidomok">Síkidomok</string>
+    <string name="testek">Testek</string>
+    <string name="derivalas">Deriválás</string>
+    <string name="integralas">Integrálás</string>
+    <string name="valoszinuseg">Valószínűség számítás</string>
+    <string name="kovetkezo_oldal">Következő oldal</string>
+    <string name="keplet">Matematikai Képlettár</string>
+    <string name="nevezetes">Nevezetes Függvények</string>
+
 
 </resources>
 

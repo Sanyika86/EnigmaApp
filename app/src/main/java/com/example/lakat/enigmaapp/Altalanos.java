@@ -50,6 +50,10 @@ public class Altalanos extends AppCompatActivity implements View.OnClickListener
             case R.id.altalanos_iskola_harmadik : i=new Intent(this,Altalanos_harmadik_osztaly.class);startActivity(i);break;
             case R.id.altalanos_iskola_negyedik : i=new Intent(this,Altalanos_negyedik_osztaly.class);startActivity(i);break;
             case R.id.altalanos_iskola_otodik : i=new Intent(this,Altalanos_otodik_osztaly.class);startActivity(i);break;
+            case R.id.altalanos_iskola_hatodik : i=new Intent(this,Altalanos_hatodik_osztaly.class);startActivity(i);break;
+            case R.id.altalanos_iskola_hetedik : i=new Intent(this,Altalanos_hetedik_osztaly.class);startActivity(i);break;
+            case R.id.altalanos_iskola_nyolcadik : i=new Intent(this,Altalanos_nyolcadik_osztaly.class);startActivity(i);break;
+
 
 
         }

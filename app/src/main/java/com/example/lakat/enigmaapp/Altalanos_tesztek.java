@@ -8,21 +8,19 @@ import android.view.View;
 
 public class Altalanos_tesztek extends AppCompatActivity implements View.OnClickListener{
 
-    private CardView elso_teszt,masodik_teszt,harmadik_teszt,negyedik_teszt,otodik_teszt,hatodik_teszt,hetedik_teszt,nyolcadik_teszt;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_altalanos_tesztek);
 
-         elso_teszt =(CardView) findViewById(R.id.altalanos_teszt_elso);
-         masodik_teszt =(CardView) findViewById(R.id.altalanos_iskola_masodik);
-         harmadik_teszt =(CardView)  findViewById(R.id.altalanos_iskola_harmadik);
-         negyedik_teszt =(CardView)  findViewById(R.id.altalanos_iskola_negyedik);
-         otodik_teszt =(CardView)  findViewById(R.id.altalanos_iskola_otodik);
-         hatodik_teszt =(CardView)  findViewById(R.id.altalanos_iskola_hatodik);
-         hetedik_teszt =(CardView)  findViewById(R.id.altalanos_iskola_hetedik);
-         nyolcadik_teszt =(CardView)  findViewById(R.id.altalanos_iskola_nyolcadik);
+        CardView elso_teszt = (CardView) findViewById(R.id.altalanos_teszt_elso);
+        CardView masodik_teszt = (CardView) findViewById(R.id.altalanos_iskola_masodik);
+        CardView harmadik_teszt = (CardView) findViewById(R.id.altalanos_iskola_harmadik);
+        CardView negyedik_teszt = (CardView) findViewById(R.id.altalanos_iskola_negyedik);
+        CardView otodik_teszt = (CardView) findViewById(R.id.altalanos_iskola_otodik);
+        CardView hatodik_teszt = (CardView) findViewById(R.id.altalanos_iskola_hatodik);
+        CardView hetedik_teszt = (CardView) findViewById(R.id.altalanos_iskola_hetedik);
+        CardView nyolcadik_teszt = (CardView) findViewById(R.id.altalanos_iskola_nyolcadik);
 
         elso_teszt.setOnClickListener(this);
         masodik_teszt.setOnClickListener(this);
