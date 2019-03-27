@@ -71,6 +71,17 @@
     <string name="kovetkezo_oldal">Következő oldal</string>
     <string name="keplet">Matematikai Képlettár</string>
     <string name="nevezetes">Nevezetes Függvények</string>
+    <string name="question_elso">Mi a a kérdés?</string>
+    <string name="valasz_elso">OPTION 1</string>
+    <string name="valsz_masodik">OPTION 2</string>
+    <string name="valsz_harmadik">OPTION 3</string>
+    <string name="ido">00:00</string>
+    <string name="button1">Button</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
+    <string name="button4">Button</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
 
 
 </resources>

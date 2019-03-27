@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Altalanos_hetedik_osztaly">
+    tools:context=".oktato.Altalanos_hetedik_osztaly">
 
     <VideoView
         android:id="@+id/videoView"

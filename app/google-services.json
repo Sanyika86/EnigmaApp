@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "604729444053-hsmgsbguu94gl2kajqvr0djvo0oam864.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.lakat.enigmaapp",
-            "certificate_hash": "a8b0dbfc36971bc34833a0fbe043ca2c97f1a9ee"
-          }
-        },
-        {
           "client_id": "604729444053-lhmd75f3q1k8ua6o0ta1foqe3stok7rf.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "604729444053-lhmd75f3q1k8ua6o0ta1foqe3stok7rf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

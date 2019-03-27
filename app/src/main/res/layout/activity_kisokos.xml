@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Kisokos"
+    tools:context=".kisokos.Kisokos"
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
     android:weightSum="10">

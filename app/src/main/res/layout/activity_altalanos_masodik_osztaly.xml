@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Altalanos_masodik_osztaly">
+    tools:context=".oktato.Altalanos_masodik_osztaly">
 
     <VideoView
         android:id="@+id/videoView"

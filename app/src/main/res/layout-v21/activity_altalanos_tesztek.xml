@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Altalanos_tesztek"
+    tools:context=".tesztek.Altalanos_tesztek"
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
     android:weightSum="10">
