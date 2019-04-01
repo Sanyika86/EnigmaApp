@@ -1,6 +1,9 @@
+/*A Kisokos menürendszere*/
+
 package com.example.lakat.enigmaapp.kisokos;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -18,7 +21,7 @@ public class Kisokos extends AppCompatActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kisokos);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
          szamelmelet_keplet = (CardView) findViewById(R.id.szamelmelet);
          binominalis_keplet = (CardView) findViewById(R.id.binominalis);
          kombinatorika_keplet = (CardView) findViewById(R.id.kombinatorika);

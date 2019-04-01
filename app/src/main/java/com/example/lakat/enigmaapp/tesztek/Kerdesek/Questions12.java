@@ -3,29 +3,29 @@ package com.example.lakat.enigmaapp.tesztek.Kerdesek;
 public class Questions12 {
     public  String mQuestions[] = {
 
-            "Hogy hívnak?",
-            "Mi a téglalap kerületének képlete?",
-            "Hány éves vagy?",
-            "Mit tudsz?",
-            "Hova mennél?",
-            "Lakatos?"
+            "Határozzuk meg a kocka élének hosszát, ha tudjuk,hogy felszíne 294 cm2 ! ",
+            "Hány liter tej fér el egy 1,5 méter élhosszúságú kocka alakú tartályban?",
+            "Egy kockát egyik lapjával párhuzamos síkokkal felszeletelünk. Hány síkkal kell szétvágni a kockát, ha azt akarjuk, hogy a keletkezett testek együttes felszíne a kocka felszínének a kétszerese legyen? ",
+            "Két darab 1 cm 3 -es fakocka közül az egyiket szétvágtuk 125 kis kockára. Ezután ugyanolyan vastagon befestettük az összes kockát. Hányszor több festék kell a kis kockák befestéséhez, mint a nagyéhoz? ",
+            "Hány szimmetriasíkja van a kockának? Azaz hány olyan sík van, amelyre tükrözve a kockát önmagát kapjuk? ",
+            "Mekkora az oldaléle annak a kockának, melynek testátlója 1?"
 
     };
 
     private String mChoices [][] = {
 
-            {"sanyika","12","5","31"},
-            {"a+b","4","5","3"},
-            {"33","12","3","1"},
-            {"semmit","2","5","4"},
-            {"sehova","12","8","11"},
-            {"igen","1","5","21"},
+            {"7 cm","12 cm","5 cm","4 cm"},
+            {"15","3375","5486","300"},
+            {"3","12","5","1"},
+            {"ötször","hatszor","hétszer","kilencszer"},
+            {"8","12","9","11"},
+            {"1.2","1","0.05","0.577"},
 
 
 
     };
 
-    private  String mCorrectAnswers[] = {"sanyika","a+b","33","semmit","sehova","igen"};
+    private  String mCorrectAnswers[] = {"7 cm","3375","3","ötször","9","0.577"};
 
     public String getQuestion(int a){
 

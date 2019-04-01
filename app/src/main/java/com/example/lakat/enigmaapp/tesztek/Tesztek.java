@@ -1,6 +1,9 @@
+/*A teszt menüpont,mint az oktatóanyagok két részre van bontva!*/
+
 package com.example.lakat.enigmaapp.tesztek;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -16,7 +19,7 @@ public class Tesztek extends AppCompatActivity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tesztek);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         altalanos_iskola_tesztek = (CardView) findViewById(R.id.elsoteszt);
         kozepiskola_tesztek = (CardView) findViewById(R.id.kozep_iskola_teszt);
 

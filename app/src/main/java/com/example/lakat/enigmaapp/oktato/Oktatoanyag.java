@@ -1,6 +1,9 @@
+/*Az oktatóanyag: általános és középiskolásokra bontva*/
+
 package com.example.lakat.enigmaapp.oktato;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -15,6 +18,8 @@ public class Oktatoanyag extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oktatoanyag);
+
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         altalanos = (CardView) findViewById(R.id.altalanos_iskola);
         kozep = (CardView) findViewById(R.id.kozep_iskola);

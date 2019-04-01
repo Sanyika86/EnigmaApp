@@ -1,3 +1,5 @@
+/*Kezdőképernyő, mely egyben a menürendszer is: Oktató, Teszt, Kisokos menüpontok */
+
 package com.example.lakat.enigmaapp.activity;
 
 import android.content.Intent;
@@ -6,7 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
-import com.example.lakat.enigmaapp.jatek.Jatek;
+
 import com.example.lakat.enigmaapp.kisokos.Kisokos;
 import com.example.lakat.enigmaapp.oktato.Oktatoanyag;
 import com.example.lakat.enigmaapp.R;
@@ -23,12 +25,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         CardView oktatoanyag = (CardView) findViewById(R.id.oktato_anyag);
         CardView teszt = (CardView) findViewById(R.id.tesztek);
         CardView kisokos = (CardView) findViewById(R.id.okos);
-        CardView jatekok = (CardView) findViewById(R.id.game);
+
 
         oktatoanyag.setOnClickListener(this);
         kisokos.setOnClickListener(this);
         teszt.setOnClickListener(this);
-        jatekok.setOnClickListener(this);
+
 
     }
 
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.oktato_anyag : i =new Intent(this, Oktatoanyag.class);startActivity(i); break;
             case R.id.tesztek : i =new Intent(this, Tesztek.class);startActivity(i); break;
             case R.id.okos : i =new Intent(this, Kisokos.class);startActivity(i); break;
-            case R.id.game : i =new Intent(this, Jatek.class);startActivity(i); break;
+
 
             default:break;
 

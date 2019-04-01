@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_width="320dp"
+                    android:layout_width="344dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/kozep" />

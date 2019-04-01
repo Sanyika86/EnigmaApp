@@ -3,29 +3,29 @@ package com.example.lakat.enigmaapp.tesztek.Kerdesek;
 public class Questions9 {
     public  String mQuestions[] = {
 
-            "Hogy hívnak?",
-            "Mi a téglalap kerületének képlete?",
-            "Hány éves vagy?",
-            "Mit tudsz?",
-            "Hova mennél?",
-            "Lakatos?"
+            "Mik a megoldásai a következő egyenletrendszernek? x+y=13 xy=42",
+            "Mik a megoldásai a következő egyenletrendszernek? 2x+y=13 xy=18",
+            "Mik az alábbi másodfokú egyenlet gyökei? x^2+4x-21=0",
+            "Mik a megoldásai a következő egyenletrendszernek? 3x+y=13 2x+3y=11",
+            "Mik a megoldásai a következő egyenletrendszernek? 5x-3y=131 -4x-7y=-48",
+
 
     };
 
     private String mChoices [][] = {
 
-            {"sanyika","12","5","31"},
-            {"a+b","4","5","3"},
-            {"33","12","3","1"},
-            {"semmit","2","5","4"},
-            {"sehova","12","8","11"},
-            {"igen","1","5","21"},
+            {"x1=0, x2=1, y1=-1, y2=3","x1=3, x2=4, y1=4, y2=3","x1=7, x2=6, y1=6, y2=7","nincs megoldása az egyenletrendszernek"},
+            {"x1=9/2, x2=2, y1=4, y2=9","nincs megoldása az egyenletrendszernek","x1=-5/3, x2=5/3, y1=2, y2=18","x1=2, x2=0, y1=9, y2=13"},
+            {"x1=3, x2=7","x=3","nincsenek gyökei","x1=3, x2=-7"},
+            {"x=4, y=1","nincsenek megoldásai az egyenletrendszernek","x=1, y=1","x=1, y=-1"},
+            {"nincs megoldása az egyenletrendszernek","x=1061/47, x=-284/47","x=-731/23, x=-284/23","x=107/17, x=-317/17"},
+
 
 
 
     };
 
-    private  String mCorrectAnswers[] = {"sanyika","a+b","33","semmit","sehova","igen"};
+    private  String mCorrectAnswers[] = {"x1=7, x2=6, y1=6, y2=7","x1=9/2, x2=2, y1=4, y2=9","x1=3, x2=-7","x=4, y=1","x=1061/47, x=-284/47"};
 
     public String getQuestion(int a){
 

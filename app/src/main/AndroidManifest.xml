@@ -30,7 +30,10 @@
         <activity android:name=".oktato.Altalanos_nyolcadik_osztaly" />
         <activity android:name=".oktato.Altalanos_hetedik_osztaly" />
         <activity android:name=".oktato.Altalanos_hatodik_osztaly" />
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.MainActivity"
+
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

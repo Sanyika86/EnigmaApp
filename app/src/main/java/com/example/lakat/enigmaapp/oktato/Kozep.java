@@ -1,6 +1,7 @@
 package com.example.lakat.enigmaapp.oktato;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -16,7 +17,7 @@ public class Kozep extends AppCompatActivity implements View.OnClickListener  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kozep);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         kilencedik = (CardView) findViewById(R.id.kozep_iskola_elso);
         tizedik = (CardView) findViewById(R.id.kozep_iskola_masodik);
         tizenegyedik = (CardView) findViewById(R.id.kozep_iskola_harmadik);

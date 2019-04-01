@@ -3,29 +3,29 @@ package com.example.lakat.enigmaapp.tesztek.Kerdesek;
 public class Questions10 {
     public  String mQuestions[] = {
 
-            "Hogy hívnak?",
-            "Mi a téglalap kerületének képlete?",
-            "Hány éves vagy?",
-            "Mit tudsz?",
-            "Hova mennél?",
-            "Lakatos?"
+            "Egy számtani sorozatról tudjuk, hogy a1=−7 és a8=896. Mennyi az első 10 tag összege?",
+            "Egy számtani sorozat első 10 tagjának az összege fele akkora, mint a következő tíz tag összege. Az első 15 tag összege 375. Mennyi a sorozat első tagja?",
+            "Egy számtani sorozatról tudjuk, hogy a8=2 és a7=162. Mennyi a10?",
+            "Egy mértani sorozatról tudjuk, hogy a10+2a8=3a9 és a4=24. Mennyi a7?",
+            "Egy mértani sorozatról tudjuk, hogy az első tagja 3, az első 5 tag összege 468, az első 6 tag összege pedig 9843. Mennyi az első hét tag összege?",
+
 
     };
 
     private String mChoices [][] = {
 
-            {"sanyika","12","5","31"},
-            {"a+b","4","5","3"},
-            {"33","12","3","1"},
-            {"semmit","2","5","4"},
-            {"sehova","12","8","11"},
-            {"igen","1","5","21"},
+            {"2387","5735","5000","-172"},
+            {"0","11","17","-3"},
+            {"162","-162","-318","142"},
+            {"192 vagy 48","24","nincs megoldás","132 vagy 64"},
+            {"64728","40000","32608","58593"},
+
 
 
 
     };
 
-    private  String mCorrectAnswers[] = {"sanyika","a+b","33","semmit","sehova","igen"};
+    private  String mCorrectAnswers[] = {"5735","11","-318","192 vagy 48","58593"};
 
     public String getQuestion(int a){
 

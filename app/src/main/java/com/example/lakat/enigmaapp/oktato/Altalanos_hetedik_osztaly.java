@@ -1,5 +1,6 @@
 package com.example.lakat.enigmaapp.oktato;
 
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ public class Altalanos_hetedik_osztaly extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_altalanos_hetedik_osztaly);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         videoView =(VideoView) findViewById(R.id.videoView);
         listView = (ListView) findViewById(R.id.listView);
         videoList= new ArrayList<>();

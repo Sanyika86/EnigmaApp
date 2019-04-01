@@ -1,6 +1,7 @@
 package com.example.lakat.enigmaapp.kisokos;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -14,7 +15,7 @@ public class Kisokos_harmadik extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kisokos_harmadik);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         gyokvonas_keplet = (CardView) findViewById(R.id.gyokvonas);
         komplex_keplet = (CardView) findViewById(R.id.komplex);
         kamat_keplet = (CardView) findViewById(R.id.kamatszamitas);

@@ -54,7 +54,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="344dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/altalanos" />
@@ -92,7 +92,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="320dp"
+                    android:layout_width="344dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/kozep" />
