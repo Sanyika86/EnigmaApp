@@ -34,7 +34,7 @@ public class Altalanos_hetedik_osztaly extends AppCompatActivity {
         videoList.add("Bevezetés az arányosságba!");
         videoList.add("Arányossági feladatok körbejárása!");
         videoList.add("Arányok és törtek egyszerűsítése!");
-        videoList.add("Átlagsebesség számítása!");
+        videoList.add("Atlagsebesseg szamitasa!");
         videoList.add("Hosszúság mértékegységeinek számítása!");
         videoList.add("Tömeg mértékegységeinek váltása!");
         videoList.add("Űrtartalom mértékegységeinek váltása!");

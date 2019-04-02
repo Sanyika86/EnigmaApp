@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
-
 import com.example.lakat.enigmaapp.kisokos.Kisokos;
 import com.example.lakat.enigmaapp.oktato.Oktatoanyag;
 import com.example.lakat.enigmaapp.R;
@@ -39,14 +38,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Intent i;
 
-        switch (view.getId()){
+        switch (view.getId()) {
 
-            case R.id.oktato_anyag : i =new Intent(this, Oktatoanyag.class);startActivity(i); break;
-            case R.id.tesztek : i =new Intent(this, Tesztek.class);startActivity(i); break;
-            case R.id.okos : i =new Intent(this, Kisokos.class);startActivity(i); break;
+            case R.id.oktato_anyag:
+                i = new Intent(this, Oktatoanyag.class);
+                startActivity(i);
+                break;
+            case R.id.tesztek:
+                i = new Intent(this, Tesztek.class);
+                startActivity(i);
+                break;
+            case R.id.okos:
+                i = new Intent(this, Kisokos.class);
+                startActivity(i);
+                break;
 
 
-            default:break;
+            default:
+                break;
 
         }
 

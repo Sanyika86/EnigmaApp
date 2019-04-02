@@ -36,9 +36,9 @@ public class Altalanos_otodik_osztaly extends AppCompatActivity {
         videoList.add("Tizedestörtek kibontása helyiérték szerint!");
         videoList.add("Mennyiség kifejezése tizedestörttel!");
         videoList.add("Helyiérték összehasonlítása a tizedestörtön belül!");
-        videoList.add("Átcsoportosítás tizedestörteknél!");
-        videoList.add("Átcsoportosítás tizedestörteknél 1. példa!");
-        videoList.add("Átcsoportosítás tizedestörteknél 2. példa!");
+        videoList.add("Atcsoportositas tizedestorteknel!");
+        videoList.add("Atcsoportositas tizedestorteknel 1. pelda!");
+        videoList.add("Atcsoportositas tizedestorteknel 2. pelda!");
         videoList.add("Tizedestörtek a számegyenesen!");
         videoList.add("Pontok a számegyensen!");
         videoList.add("Pozitív és negatív tizedestörtek a számegyenesen");

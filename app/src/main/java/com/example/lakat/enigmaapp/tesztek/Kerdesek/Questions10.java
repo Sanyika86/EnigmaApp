@@ -3,7 +3,7 @@ package com.example.lakat.enigmaapp.tesztek.Kerdesek;
 public class Questions10 {
     public  String mQuestions[] = {
 
-            "Egy számtani sorozatról tudjuk, hogy a1=−7 és a8=896. Mennyi az első 10 tag összege?",
+            "Egy szamtani sorozatrol tudjuk, hogy a1 = minusz 7 es a8 = 896. Mennyi az elso 10 tag osszege?",
             "Egy számtani sorozat első 10 tagjának az összege fele akkora, mint a következő tíz tag összege. Az első 15 tag összege 375. Mennyi a sorozat első tagja?",
             "Egy számtani sorozatról tudjuk, hogy a8=2 és a7=162. Mennyi a10?",
             "Egy mértani sorozatról tudjuk, hogy a10+2a8=3a9 és a4=24. Mennyi a7?",

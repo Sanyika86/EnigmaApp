@@ -8,7 +8,7 @@ public class Questions6 {
             "Gondolok egy számra. Ha elveszek belőle ennyit: 5 és az eredményt megszorzom hattal, akkor 54-t kapok. Melyik számra gondoltam?",
             "Gondolok egy számra. Ha a gondolt számot megszorzom kettővel és hozzáadom a felét, akkor az eredmény 30. Melyik számra gondoltam?",
             "Gondolok egy számra. A szám egyharmada ennyivel kisseb, mint a fele: 5. Melyik számra gondoltam?",
-            "Amikor Balázs annyi éves lesz, mint Ádám most, akkor Ádám 9 éves lesz. Amikor Ádám annyi éves volt , mint Balázs most, Balázs 3 éves volt. Hány éves jelenleg Ádám és Balázs?",
+            "Amikor Balazs annyi eves lesz, mint Adam most, akkor Adam 9 eves lesz. Amikor Adam annyi eves volt , mint Balazs most, Balazs 3 éves volt. Hany eves jelenleg Adam és Balazs?",
             "Novákék az árvíz után az egyik szivattyúval a vizet 240 perc alatt, a másikkal 120 perc alatt szivattyúznák ki a pincéből. Mennyi ideig tartana a szivattyúzás, ha mindkét szivattyút használnák?"
 
     };
